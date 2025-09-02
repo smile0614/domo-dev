@@ -1,0 +1,9 @@
+# Default ignore patterns
+node_modules/
+.next/
+out/
+build/
+coverage/
+
+# Explicitly include prettier config files
+!.prettierrc.js

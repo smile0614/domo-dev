@@ -1,0 +1,19 @@
+import { Metadata } from 'next';
+import * as React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Not Found',
+};
+
+export default function NotFound() {
+  return (
+    <main>
+      <section className='bg-background-100'>
+        <div className='layout flex min-h-screen flex-col items-center justify-center text-center text-black'>
+          <h1 className='text-2xl md:text-4xl'>Page Not Found</h1>
+          <a href='/'>Back to home</a>
+        </div>
+      </section>
+    </main>
+  );
+}
